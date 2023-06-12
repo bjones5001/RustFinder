@@ -1,0 +1,12 @@
+[package]
+name = "RustFinder"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rustfinder"
+path = "src/main.rs"
+
+[dependencies]
+gtk = "0.9"
+
